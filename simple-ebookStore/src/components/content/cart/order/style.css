@@ -1,0 +1,62 @@
+ul,li{
+    padding: 0;
+}
+.bookList>h3{
+    margin: 0;
+}
+.bookList-all{
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    overflow:auto;
+    height: 345px;
+    padding: 10px;
+    background-color: blueviolet;
+
+}
+.totalAmount{
+    bottom: 0;
+}
+
+.bookCard>img{
+    width: 40px;
+    height: 60px;
+}
+.bookCard>h4{
+    padding: 0 0 0 10px;
+    color: blueviolet;
+}
+.bookCard{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.totalAmount{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bolder;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.BookTitlePrice>h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.BookTitlePrice>span{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.BookTitlePrice{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 10px;
+}
+.price{
+    font-size: 15px;
+}
+.author{
+    font-size: 13px;
+}

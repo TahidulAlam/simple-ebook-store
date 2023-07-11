@@ -1,0 +1,29 @@
+.content-body{
+    width: 100%;
+    display: flex;
+}
+.contentBody-left{
+    width: 80%;
+}
+.contentBodyLeft-content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+    row-gap: 80px;
+}
+.contenBody-right{
+    width: 20%;
+    position: fixed;
+    right: 0;
+    margin-top: -25px;
+}
+.contenBodyRight-h1{
+    text-align: center;
+    font-weight: bold; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(54, 54, 54);
+    margin: 0px;
+}

@@ -1,0 +1,27 @@
+.headerText{
+    text-align: center;
+    background-color: blueviolet;
+    padding: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hedarNavUl{
+    display: flex;
+    justify-content: center;
+
+}
+.hedarNavUl>li{
+    list-style: none;
+    cursor: pointer;
+    padding:2px 20px 2px 20px;
+    color: blueviolet;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid white;
+}
+.hedarNavUl>li:hover{
+    border: 1px solid blueviolet;
+    ;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,87 @@
+.Card{
+    width: 200px;
+    height: 400px ;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.cardImg{
+    padding-top: 20px;
+}
+.cardUpperContent{
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px 0 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-left: 1px solid blueviolet;
+    border-right: 1px solid blueviolet;
+    border-top: 1px solid blueviolet;
+
+}
+.cardPrice{
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:0 5px 5px 5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.cardImg{
+    width: 100%;
+    height: 280px;
+    margin: auto;
+}
+.cardContent{
+    width: 200px;
+    padding: 0 15px 0 15px;
+    padding-bottom: 10px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-Right-radius: 20px;
+    border-left: 1px solid blueviolet;
+    border-right: 1px solid blueviolet;
+    border-bottom: 1px solid blueviolet;
+
+}
+.cardText1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 255, 255);
+    padding: 5px 0 5px 0;
+    white-space: wrap;
+    text-align:center;
+    font-size: 13px;
+}
+.cardText2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 255, 255);
+    padding: 5px 0 5px 0;
+    white-space: wrap;
+    text-align: center;
+    font-size: 15px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    font-weight: bolder;
+}
+.addBtn{
+    padding:10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(162, 0, 255);
+    background-color:#ffffff;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    font-weight: bold;
+}
+.addBtn:hover{
+    background-color: rgb(236, 236, 236);
+}
