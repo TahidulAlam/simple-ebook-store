@@ -13,15 +13,35 @@ ul,li{
     background-color: blueviolet;
 
 }
+/* Track */
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track background */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:blueviolet;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(68, 17, 116);
+  }
+  
 .totalAmount{
     bottom: 0;
 }
 
-.bookCard>img{
+.card-details>img{
     width: 40px;
     height: 60px;
 }
-.bookCard>h4{
+.card-details>h4{
     padding: 0 0 0 10px;
     color: blueviolet;
 }
@@ -33,13 +53,26 @@ ul,li{
     cursor: pointer;
     margin-top: 5px;
 }
+.card-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+}
 .totalAmount{
     background-color: blueviolet;
     color: white;
     font-weight: bolder;
     margin-top: 5px;
     padding: 10px;
-    border-radius: 5px;
+    border: 1px solid white;
+}
+.totalAmount>span{
+margin: 0;
+}
+.totalAmount>p{
+    margin: 0;
+    font-size: 25px;
 }
 .BookTitlePrice>h4{
     margin-top: 0;
@@ -59,4 +92,35 @@ ul,li{
 }
 .author{
     font-size: 13px;
+}
+.dltBtn{
+    width: 15%;
+}
+.dltBtnSign{
+    position: relative;
+    width: 22px;
+    height: 22px;
+    transform: rotate(45deg);
+    margin-top: 20px;
+}
+.horizontal,
+.vertical {
+  position: absolute;
+  background-color: rgb(255, 0, 0);
+}
+
+.horizontal {
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  transform: translateY(-50%);
+}
+
+.vertical {
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  transform: translateX(-50%);
 }
